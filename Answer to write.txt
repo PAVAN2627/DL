@@ -1,0 +1,468 @@
+Chit 1 – Study of Deep Learning Packages
+Q1. Study TensorFlow and Keras and explain their distinct features.
+
+Answer:
+
+TensorFlow:
+1. TensorFlow is an open-source deep learning framework developed by Google.
+2. It is used to build and train machine learning models.
+3. It supports CPU and GPU processing.
+4. It is useful for developing complex neural networks.
+Keras:
+1. Keras is a high-level deep learning API.
+2. It provides a simple interface for building neural networks.
+3. It supports different neural network layers.
+4. It works with TensorFlow as its backend.
+Difference: TensorFlow provides the complete framework, while Keras makes model development easier.
+
+Q2. Demonstrate the basic workflow of building a neural network using Keras.
+
+Answer:
+
+The basic workflow of building a neural network includes:
+1. Import required libraries.
+2. Load the dataset.
+3. Preprocess the data.
+4. Define the model architecture.
+5. Compile the model using an optimizer and loss function.
+6. Train the model.
+7. Evaluate the model using testing data.
+Result: A neural network is created, trained and evaluated successfully.
+
+Chit 2 – Study of Deep Learning Packages
+Q1. Compare TensorFlow, Theano, Keras, and PyTorch based on their features and functionality.
+
+Answer:
+Package	Features
+TensorFlow	Open-source framework developed by Google.
+Theano	Used for mathematical and numerical computations; discontinued.
+Keras	High-level API for easy neural network development.
+PyTorch	Flexible deep learning framework developed by Meta.
+
+Q2. Explain the applications of these packages in deep learning.
+
+Answer:
+1. Image classification and object detection.
+2. Speech recognition.
+3. Natural Language Processing.
+4. Face recognition.
+5. Medical image analysis.
+6. Recommendation systems.
+7. Self-driving vehicles.
+
+Chit 3 – Feedforward Neural Network
+Q1. Implement a feedforward neural network using Keras and TensorFlow on the MNIST dataset. Import the required packages, load the data, define the architecture, and train the model using SGD.
+
+Answer:
+
+A Feedforward Neural Network is an artificial neural network in which information flows from the input layer to the output layer in one direction.
+
+Steps:
+1. Import TensorFlow and Keras libraries.
+2. Load the MNIST handwritten digit dataset.
+3. Normalize the image data between 0 and 1.
+4. Define input, hidden and output layers.
+5. Use ReLU and Softmax activation functions.
+6. Compile the model using SGD optimizer.
+7. Train the model using training data.
+Result: The model learns to recognize handwritten digits from 0 to 9.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 4 – Feedforward Neural Network
+Q1. Implement a feedforward neural network using Keras on the MNIST dataset. Evaluate the model and plot the training loss and accuracy.
+
+Answer:
+
+Steps:
+1. Load the MNIST dataset.
+2. Preprocess and normalize the images.
+3. Create a feedforward neural network.
+4. Add input, hidden and output layers.
+5. Compile the model using Adam optimizer.
+6. Train the model using training data.
+7. Evaluate the model using testing data.
+8. Plot training loss and accuracy graphs.
+Result: The model predicts handwritten digits and displays training loss and accuracy graphs.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 5 – Feedforward Neural Network
+Q1. Implement a feedforward neural network using Keras and TensorFlow on the CIFAR-10 dataset. Define the network architecture, train it using SGD, and evaluate its performance.
+
+Answer:
+
+CIFAR-10 is a dataset containing 60,000 color images belonging to 10 different classes.
+
+Steps:
+1. Import TensorFlow and Keras.
+2. Load the CIFAR-10 dataset.
+3. Normalize image pixel values between 0 and 1.
+4. Define the neural network architecture.
+5. Add input, hidden and output layers.
+6. Compile the model using SGD optimizer.
+7. Train the model.
+8. Evaluate its performance using testing data.
+Result: The model classifies images into 10 different categories.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 6 – Feedforward Neural Network
+Q1. Load and preprocess the MNIST dataset, build a feedforward neural network, train it, and visualize the training loss and accuracy.
+
+Answer:
+
+Steps:
+1. Load the MNIST dataset.
+2. Normalize image pixel values.
+3. Reshape the input images if required.
+4. Create input, hidden and output layers.
+5. Compile the model using an optimizer and loss function.
+6. Train the model using training data.
+7. Calculate training loss and accuracy.
+8. Visualize the results using graphs.
+Result: The model is trained successfully and training loss and accuracy are displayed graphically.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 7 – Image Classification
+Q1. Implement an image classification model by performing the following stages:
+
+a. Load and preprocess image data.
+
+Load the image dataset and normalize pixel values to prepare images for training.
+
+b. Define the model architecture.
+
+Create a CNN containing convolution, pooling, flatten and dense layers.
+
+c. Train the model.
+
+Train the model using training images and their corresponding labels.
+
+d. Estimate its performance.
+
+Evaluate the model using testing data and calculate accuracy and loss.
+
+Result: The model successfully classifies images into different categories.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 8 – Image Classification
+Q1. Develop an image classification model using a suitable image dataset. Explain the architecture, training process, and performance evaluation.
+
+Answer:
+
+1. Dataset: Use CIFAR-10 containing 10 different image classes.
+
+2. Architecture:
+- Convolution Layer: Extracts image features.
+- Pooling Layer: Reduces image dimensions.
+- Flatten Layer: Converts features into a vector.
+- Dense Layer: Performs classification.
+- Output Layer: Predicts the image category.
+3. Training Process:
+- Load and preprocess images.
+- Define CNN architecture.
+- Compile the model.
+- Train using training data.
+4. Performance Evaluation:
+
+Evaluate the model using accuracy, loss, precision and recall.
+
+Result: The model predicts image categories successfully.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 9 – Image Classification
+Q1. Implement an image classification model and demonstrate how image preprocessing and model training affect the classification results.
+
+Answer:
+
+Image classification is used to identify the category of an image.
+
+Image Preprocessing Techniques:
+1. Resizing: Changes image dimensions.
+2. Normalization: Scales pixel values between 0 and 1.
+3. Data Augmentation: Creates modified images using rotation and flipping.
+4. Label Encoding: Converts labels into numerical values.
+Model Training:
+1. Load the dataset.
+2. Preprocess images.
+3. Define CNN architecture.
+4. Compile the model.
+5. Train the model.
+6. Evaluate classification accuracy.
+Result: Preprocessing improves data quality and helps the model learn image features effectively.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 10 – Image Classification
+Q1. Build and train an image classification model. Evaluate its performance on testing data and display the classification results.
+
+Answer:
+
+Steps:
+1. Load an image dataset.
+2. Preprocess and normalize images.
+3. Create a CNN model.
+4. Add convolution, pooling and dense layers.
+5. Compile the model.
+6. Train using training data.
+7. Test the model using testing data.
+8. Display predicted and actual classes.
+Performance Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Loss
+Result: The model classifies images and displays its testing accuracy.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 11 – Autoencoder for Anomaly Detection
+Q1. Implement an autoencoder for anomaly detection. Import the required libraries, load a dataset, and build the encoder and decoder networks.
+
+Answer:
+
+An Autoencoder is an unsupervised neural network that learns to compress and reconstruct input data.
+
+Main Components:
+1. Encoder: Compresses input data into a smaller representation.
+2. Latent Space: Stores compressed information.
+3. Decoder: Reconstructs the original input.
+Steps:
+1. Import required libraries.
+2. Load the dataset.
+3. Preprocess the data.
+4. Create encoder and decoder networks.
+5. Compile the model using Adam optimizer.
+6. Train the autoencoder.
+7. Compare original and reconstructed data.
+Result: The autoencoder learns to reconstruct input data and helps identify anomalies.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 12 – Autoencoder for Anomaly Detection
+Q1. Develop an autoencoder that converts input data into a latent representation and reconstructs the original input. Compile and train the model.
+
+Answer:
+
+An autoencoder converts input data into a compressed latent representation and reconstructs the original data.
+
+Working:
+1. Input Layer: Accepts original data.
+2. Encoder: Compresses the input.
+3. Latent Space: Stores important features.
+4. Decoder: Reconstructs the input.
+5. Output Layer: Produces reconstructed data.
+Training Process:
+1. Load and preprocess dataset.
+2. Define encoder and decoder.
+3. Select Adam optimizer.
+4. Select Mean Squared Error loss.
+5. Compile and train the model.
+Result: The model learns compressed representations and reconstructs the original input.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 13 – Autoencoder for Anomaly Detection
+Q1. Implement an autoencoder using a suitable dataset. Select an optimizer, loss function, and evaluation metrics, and explain how reconstruction error can help identify anomalies.
+
+Answer:
+
+An autoencoder is used to detect abnormal data by comparing original and reconstructed inputs.
+
+1. Dataset: Use MNIST or another suitable dataset.
+
+2. Optimizer: Adam optimizer updates model weights.
+
+3. Loss Function: Mean Squared Error measures reconstruction error.
+
+4. Evaluation Metric: Reconstruction error measures the difference between original and reconstructed data.
+
+5. Anomaly Detection:
+- Low reconstruction error indicates normal data.
+- High reconstruction error indicates possible abnormal data.
+- A predefined threshold is used to identify anomalies.
+Applications:
+1. Fraud detection.
+2. Network security.
+3. Fault detection.
+4. Medical diagnosis.
+Result: The autoencoder identifies unusual data using reconstruction error.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 14 – Continuous Bag of Words (CBOW)
+Q1. Implement the CBOW model by performing data preparation, generating training data, training the model, and displaying the output.
+
+Answer:
+
+CBOW stands for Continuous Bag of Words. It is a Word2Vec model used in Natural Language Processing to predict a target word using surrounding context words.
+
+Steps:
+1. Prepare a sample text corpus.
+2. Perform tokenization.
+3. Create a vocabulary of unique words.
+4. Generate context-target word pairs.
+5. Convert words into numerical representations.
+6. Train the CBOW model.
+7. Display the predicted target word.
+Example:
+
+Sentence: "I love deep learning."
+
+Context Words: I, deep.
+
+Target Word: love.
+
+Result: The CBOW model learns to predict target words using context words.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 15 – Continuous Bag of Words (CBOW)
+Q1. Develop a CBOW model for a sample text corpus. Generate context-target word pairs, train the model, and demonstrate the output.
+
+Answer:
+
+CBOW predicts the center word using surrounding words.
+
+Example:
+
+Sentence: "I love machine learning."
+Context Words	Target Word
+I, machine	love
+love, learning	machine
+
+Steps:
+1. Create a sample text corpus.
+2. Tokenize the sentences.
+3. Generate context-target pairs.
+4. Convert words into numerical vectors.
+5. Create an embedding layer.
+6. Train the model using context words.
+7. Predict the target word.
+Result: The model learns relationships between words and predicts target words.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 16 – Continuous Bag of Words (CBOW)
+Q1. Implement the CBOW model and explain how context words are used to predict a target word. Demonstrate the training process and output.
+
+Answer:
+
+CBOW is a Word2Vec technique used to predict a target word from surrounding context words.
+
+Working:
+1. Input context words are provided.
+2. Words are converted into numerical vectors.
+3. Context word vectors are averaged.
+4. The model predicts the target word.
+5. The model learns through training and backpropagation.
+Example:
+
+Sentence: "I love machine learning."
+
+Context Words: love, learning.
+
+Target Word: machine.
+
+Advantages:
+1. Simple and fast.
+2. Learns word relationships.
+3. Useful in NLP applications.
+4. Generates word embeddings.
+Result: The model predicts a target word based on its context.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 17 – Object Detection Using Transfer Learning
+Q1. Load a pretrained CNN model trained on a large dataset. Freeze the lower convolutional layers, add a custom classifier, and train the classifier on task-specific data.
+
+Answer:
+
+Transfer Learning is a technique in which a pretrained model is reused for a new task.
+
+Steps:
+1. Load a pretrained CNN model such as MobileNetV2.
+2. Freeze the lower convolutional layers.
+3. Add a custom classification layer.
+4. Select an optimizer and loss function.
+5. Train the classifier using task-specific data.
+6. Evaluate the model.
+Advantages:
+1. Saves training time.
+2. Requires less training data.
+3. Reuses previously learned features.
+4. Improves model performance.
+Result: A pretrained CNN is adapted to classify task-specific images.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 18 – Object Detection Using Transfer Learning
+Q1. Implement transfer learning using a pretrained CNN architecture. Add trainable classifier layers and evaluate the model on the available task-specific dataset.
+
+Answer:
+
+Transfer Learning uses an already trained CNN model for a new classification task.
+
+Steps:
+1. Load a pretrained CNN architecture.
+2. Freeze the pretrained layers.
+3. Add custom trainable classifier layers.
+4. Compile the model.
+5. Train using task-specific data.
+6. Evaluate using testing data.
+7. Calculate accuracy and loss.
+Result: The pretrained CNN extracts image features and the custom classifier predicts the required classes.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 19 – Object Detection Using Transfer Learning
+Q1. Use a pretrained CNN model for object detection. Freeze the lower convolutional layers, train the custom classifier, and demonstrate the detection results.
+
+Answer:
+
+Object Detection is a computer vision technique used to identify objects and locate their positions in images.
+
+Steps:
+1. Load a pretrained CNN model.
+2. Freeze lower convolutional layers.
+3. Add a custom classifier.
+4. Train the model using task-specific data.
+5. Evaluate the model.
+6. Display detection results.
+Important Terms:
+- Bounding Box: Rectangular box around an object.
+- Classification: Identifies the object category.
+- Localization: Identifies the object's position.
+Result: The model identifies objects and their locations in images. Actual object detection requires a localization component in addition to classification.
+
+Q2. This chit contains only one question in the supplied document.
+
+Chit 20 – Object Detection Using Transfer Learning
+Q1. Implement transfer learning using a pretrained CNN. Train the classifier, unfreeze additional layers as required, fine-tune the hyperparameters, and evaluate the results.
+
+Answer:
+
+Fine-tuning is the process of unfreezing selected pretrained layers and training them further on a new dataset.
+
+Steps:
+1. Load a pretrained CNN model.
+2. Freeze the pretrained layers.
+3. Add a custom classifier.
+4. Train the classifier.
+5. Unfreeze selected convolutional layers.
+6. Set a low learning rate.
+7. Fine-tune the model.
+8. Evaluate model performance.
+Hyperparameters:
+1. Learning Rate.
+2. Batch Size.
+3. Number of Epochs.
+4. Optimizer.
+Result: The model is fine-tuned using pretrained knowledge and evaluated on testing data.
+
+Q2. This chit contains only one question in the supplied document.
